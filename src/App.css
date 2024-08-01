@@ -1,0 +1,126 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* Droppable Area */
+.droppable-area {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Button Styling */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Save Button Styling */
+.save-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Delete Button Styling */
+.delete-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+/* Draggable Item Styling */
+.draggable-item {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  cursor: grab;
+}
+
+/* Droppable Item Styling */
+.droppable-item {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Image Styling */
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Grid Styling */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Divider Styling */
+.divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Editable Text Styling */
+.editable-text, .editable-input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+}
